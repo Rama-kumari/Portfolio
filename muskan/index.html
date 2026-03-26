@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rama Kumari | CS Engineer & ML Developer</title>
+  <meta name="description" content="Portfolio of Rama Kumari – Computer Science Engineer specializing in Machine Learning, Web Development, and Data Analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">RK<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#training" class="nav-link">Training</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link cta-btn">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" role="button" tabindex="0" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="hero-content">
+      <div class="hero-badge clay-badge">👋 Available for Opportunities</div>
+      <h1 class="hero-name">Rama<br /><span class="highlight">Kumari</span></h1>
+      <p class="hero-tagline">CS Engineer · ML Developer · Problem Solver</p>
+      <p class="hero-desc">
+        Passionate about building intelligent systems and crafting meaningful digital experiences. Specialized in Machine Learning, Data Analytics, and Full-Stack Web Development.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary clay-btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline clay-btn">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Rama-kumari" target="_blank" rel="noopener noreferrer" class="social-chip clay-chip" id="github-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/rama-kumari12/" target="_blank" rel="noopener noreferrer" class="social-chip clay-chip" id="linkedin-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="mailto:kumari09rama@gmail.com" class="social-chip clay-chip" id="email-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          Email
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-clay" id="avatar-clay">
+        <div class="avatar-ring"></div>
+        <div class="avatar-inner" id="avatar-inner">
+          <img src="assets/profile.jpeg" alt="Rama Kumari" class="profile-img" id="profile-img" decoding="async" loading="eager" />
+          <span class="avatar-initials">RK</span>
+        </div>
+        <div class="float-badge fb-1 clay-mini">🐍 Python</div>
+        <div class="float-badge fb-2 clay-mini">🤖 ML</div>
+        <div class="float-badge fb-3 clay-mini">☕ Java</div>
+        <div class="float-badge fb-4 clay-mini">📊 Data</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-header">
+      <span class="section-label clay-label">What I Know</span>
+      <h2 class="section-title">Skills & <span class="highlight">Expertise</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card clay-card" id="skill-languages">
+        <div class="skill-icon">💻</div>
+        <h3>Languages</h3>
+        <div class="skill-tags">
+          <span class="tag tag-purple">Python</span>
+          <span class="tag tag-blue">C++</span>
+          <span class="tag tag-orange">Java</span>
+          <span class="tag tag-yellow">JavaScript</span>
+          <span class="tag tag-green">C</span>
+          <span class="tag tag-pink">PHP</span>
+        </div>
+      </div>
+      <div class="skill-card clay-card" id="skill-frameworks">
+        <div class="skill-icon">🧠</div>
+        <h3>Frameworks & Libraries</h3>
+        <div class="skill-tags">
+          <span class="tag tag-purple">Scikit-Learn</span>
+          <span class="tag tag-orange">TensorFlow</span>
+          <span class="tag tag-blue">SciPy</span>
+          <span class="tag tag-green">Pandas</span>
+          <span class="tag tag-yellow">NumPy</span>
+          <span class="tag tag-pink">Matplotlib</span>
+          <span class="tag tag-purple">Seaborn</span>
+        </div>
+      </div>
+      <div class="skill-card clay-card" id="skill-tools">
+        <div class="skill-icon">🛠️</div>
+        <h3>Tools & Platforms</h3>
+        <div class="skill-tags">
+          <span class="tag tag-blue">Git</span>
+          <span class="tag tag-orange">GitHub</span>
+          <span class="tag tag-yellow">Jupyter Notebook</span>
+          <span class="tag tag-green">Power BI</span>
+          <span class="tag tag-pink">MySQL</span>
+          <span class="tag tag-purple">VS Code</span>
+          <span class="tag tag-blue">MS Excel</span>
+          <span class="tag tag-orange">Ubuntu</span>
+        </div>
+      </div>
+      <div class="skill-card clay-card" id="skill-soft">
+        <div class="skill-icon">🌟</div>
+        <h3>Soft Skills</h3>
+        <div class="skill-tags">
+          <span class="tag tag-green">Problem Solving</span>
+          <span class="tag tag-blue">Teamwork</span>
+          <span class="tag tag-purple">Adaptability</span>
+          <span class="tag tag-pink">Time Management</span>
+          <span class="tag tag-orange">Analytical Thinking</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-header">
+      <span class="section-label clay-label">My Work</span>
+      <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card clay-card featured" id="project-insurance" data-url="https://github.com/Rama-kumari/Vrinda-Store-Annual-Report" role="link" tabindex="0" aria-label="Open Vrinda Store Annual Report on GitHub">
+        <div class="project-header">
+          <div class="project-icon">📊</div>
+          <div class="project-meta">
+            <span class="project-date">Apr 2025</span>
+            <a href="https://github.com/Rama-kumari/Vrinda-Store-Annual-Report" target="_blank" rel="noopener noreferrer" class="project-link clay-mini">GitHub ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">Vrinda Store Annual Report</h3>
+        <p class="project-type">Excel Data Analysis & Dashboard</p>
+        <p class="project-desc">
+          Comprehensive analysis of business performance using <strong>Excel</strong> for data handling and visualization. Built an annual report dashboard to summarize key trends and insights.
+        </p>
+        <div class="project-tech">
+          <span class="tag tag-blue">Excel</span>
+          <span class="tag tag-green">Dashboard</span>
+          <span class="tag tag-yellow">Data Cleaning</span>
+          <span class="tag tag-purple">Data Visualization</span>
+        </div>
+      </div>
+
+      <div class="project-card clay-card" id="project-agri" data-url="https://github.com/Rama-kumari/Agricultural-Commodity-Price-Analysis-in-India" role="link" tabindex="0" aria-label="Open Agricultural Commodity Price Analysis in India on GitHub">
+        <div class="project-header">
+          <div class="project-icon">📊</div>
+          <div class="project-meta">
+            <span class="project-date">Apr 2025</span>
+            <a href="https://github.com/Rama-kumari/Agricultural-Commodity-Price-Analysis-in-India" target="_blank" rel="noopener noreferrer" class="project-link clay-mini">GitHub ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">Agricultural Commodity Price Analysis in India</h3>
+        <p class="project-type">Data Analytics & Visualization</p>
+        <p class="project-desc">
+          Explored how agricultural commodity prices vary across regions and commodities. Focused on extracting insights through data analysis and visualizations.
+        </p>
+        <div class="project-tech">
+          <span class="tag tag-purple">Python</span>
+          <span class="tag tag-orange">Pandas</span>
+          <span class="tag tag-blue">EDA</span>
+          <span class="tag tag-pink">Visualization</span>
+        </div>
+      </div>
+
+      <div class="project-card clay-card" id="project-grocery" data-url="https://github.com/Rama-kumari/Grocery-List-Generator" role="link" tabindex="0" aria-label="Open Grocery List Generator on GitHub">
+        <div class="project-header">
+          <div class="project-icon">🛒</div>
+          <div class="project-meta">
+            <span class="project-date">Apr 2025</span>
+            <a href="https://github.com/Rama-kumari/Grocery-List-Generator" target="_blank" rel="noopener noreferrer" class="project-link clay-mini">GitHub ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">Grocery List Generator</h3>
+        <p class="project-type">Interactive Web App</p>
+        <p class="project-desc">
+          A simple and interactive Grocery List Generator built with HTML, CSS, and JavaScript. Helps users create and manage grocery lists through a friendly chat-style interface.
+        </p>
+        <div class="project-tech">
+          <span class="tag tag-orange">HTML</span>
+          <span class="tag tag-blue">CSS</span>
+          <span class="tag tag-yellow">JavaScript</span>
+          <span class="tag tag-green">UI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINING -->
+  <section class="section" id="training">
+    <div class="section-header">
+      <span class="section-label clay-label">Experience</span>
+      <h2 class="section-title">Training & <span class="highlight">Internship</span></h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item clay-card" id="training-java">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <div class="timeline-icon">☕</div>
+            <div>
+              <h3 class="timeline-title">Java Maestro – Skill Development</h3>
+              <p class="timeline-org">Lovely Professional University</p>
+            </div>
+            <span class="timeline-date clay-label">Jun – Jul 2025</span>
+          </div>
+          <ul class="timeline-points">
+            <li>Completed a hands-on Skill Development program on Java application development.</li>
+            <li>Built a <strong>Java Swing-based Parking Management System</strong> with role-based login and automated slot allocation.</li>
+            <li>Integrated SQLite for real-time parking records and improved operational efficiency.</li>
+          </ul>
+          <div class="timeline-achievement">
+            <span class="achievement-badge clay-mini">🏆 Grade: A</span>
+          </div>
+          <div class="timeline-tech">
+            <span class="tag tag-orange">Java OOPs</span>
+            <span class="tag tag-blue">Java Swing</span>
+            <span class="tag tag-green">AWT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section section-alt" id="certificates">
+    <div class="section-header">
+      <span class="section-label clay-label">Credentials</span>
+      <h2 class="section-title">Certificates & <span class="highlight">Courses</span></h2>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card clay-card" id="cert-deloitte" data-url="https://drive.google.com/drive/folders/13b5N7HH2HvKs_x5RYHPt_U7mzKAXON-f?usp=drive_link" role="link" tabindex="0" aria-label="Open Deloitte Data Analytics Job Simulation certificate folder">
+        <div class="cert-icon">📊</div>
+        <div class="cert-body">
+          <h4>Data Analytics Job Simulation</h4>
+          <p class="cert-org">Deloitte</p>
+          <span class="cert-date clay-mini">Jan 2025</span>
+        </div>
+      </div>
+      <div class="cert-card clay-card" id="cert-cloud" data-url="https://drive.google.com/drive/folders/1G8EHRFslTQd9gEtyReTFbBl2xS20_m44" role="link" tabindex="0" aria-label="Open Cloud Computing certificate folder">
+        <div class="cert-icon">☁️</div>
+        <div class="cert-body">
+          <h4>Certified in Cloud Computing</h4>
+          <p class="cert-org">NPTEL</p>
+          <span class="cert-date clay-mini">Aug – Nov 2025</span>
+        </div>
+      </div>
+      <div class="cert-card clay-card" id="cert-genai" data-url="https://drive.google.com/drive/folders/1NesSNl0dQmrS10MzmCe4KmIw6RIBMh8U" role="link" tabindex="0" aria-label="Open Master Generative AI & Tools certificate folder">
+        <div class="cert-icon">🤖</div>
+        <div class="cert-body">
+          <h4>Master Generative AI & Tools</h4>
+          <p class="cert-org">Infosys</p>
+          <span class="cert-date clay-mini">Jan – Dec 2025</span>
+        </div>
+      </div>
+      <div class="cert-card clay-card" id="cert-python">
+        <div class="cert-icon">🐍</div>
+        <div class="cert-body">
+          <h4>The Complete Python Course</h4>
+          <p class="cert-org">Infosys</p>
+          <span class="cert-date clay-mini">Aug – Dec 2024</span>
+        </div>
+      </div>
+      <div class="cert-card clay-card" id="cert-hardware">
+        <div class="cert-icon">🖥️</div>
+        <div class="cert-body">
+          <h4>Introduction to Hardware &amp; OS</h4>
+          <p class="cert-org">Coursera</p>
+          <span class="cert-date clay-mini">Aug – Dec 2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-header">
+      <span class="section-label clay-label">Academic</span>
+      <h2 class="section-title">My <span class="highlight">Education</span></h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card clay-card primary-edu" id="edu-lpu">
+        <div class="edu-badge clay-mini">🎓 Current</div>
+        <div class="edu-icon">🏛️</div>
+        <h3>Lovely Professional University</h3>
+        <p class="edu-location">📍 Phagwara, Punjab</p>
+        <p class="edu-degree">B.Tech – Computer Science & Engineering</p>
+        <div class="edu-stats">
+          <div class="edu-stat">
+            <span class="stat-val">7.1</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+          <div class="edu-stat">
+            <span class="stat-val">Aug 2023</span>
+            <span class="stat-label">Started</span>
+          </div>
+          <div class="edu-stat">
+            <span class="stat-val">Present</span>
+            <span class="stat-label">Status</span>
+          </div>
+        </div>
+      </div>
+      <div class="edu-card clay-card" id="edu-inter">
+        <div class="edu-icon">📚</div>
+        <h3>Inter Science College</h3>
+        <p class="edu-location">📍 Bokaro, Jharkhand</p>
+        <p class="edu-degree">Intermediate (PCM)</p>
+        <div class="edu-stats">
+          <div class="edu-stat">
+            <span class="stat-val">80%</span>
+            <span class="stat-label">Percentage</span>
+          </div>
+          <div class="edu-stat">
+            <span class="stat-val">Apr 2020 – Mar 2022</span>
+            <span class="stat-label">Year</span>
+          </div>
+        </div>
+      </div>
+      <div class="edu-card clay-card" id="edu-dav">
+        <div class="edu-icon">🏫</div>
+        <h3>DAV Public School</h3>
+        <p class="edu-location">📍 Bokaro, Jharkhand</p>
+        <p class="edu-degree">Matriculation</p>
+        <div class="edu-stats">
+          <div class="edu-stat">
+            <span class="stat-val">81.2%</span>
+            <span class="stat-label">Percentage</span>
+          </div>
+          <div class="edu-stat">
+            <span class="stat-val">Apr 2019 – Mar 2020</span>
+            <span class="stat-label">Year</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section section-alt" id="achievements">
+    <div class="section-header">
+      <span class="section-label clay-label">Milestones</span>
+      <h2 class="section-title">Achievements & <span class="highlight">Awards</span></h2>
+    </div>
+    <div class="achievements-grid">
+      <div class="achievement-card clay-card" id="ach-gfg" data-url="https://www.geeksforgeeks.org/profile/kumari0z6u0" role="link" tabindex="0" aria-label="Open GeeksforGeeks profile">
+        <div class="ach-emoji">💡</div>
+        <div class="ach-content">
+          <h4>50+ Problems Solved</h4>
+          <p>GeeksforGeeks</p>
+        </div>
+        <div class="ach-glow glow-green"></div>
+      </div>
+      <div class="achievement-card clay-card" id="ach-leetcode" data-url="https://leetcode.com/u/Rama_Kumari/" role="link" tabindex="0" aria-label="Open LeetCode profile">
+        <div class="ach-emoji">⚡</div>
+        <div class="ach-content">
+          <h4>100+ Problems Solved</h4>
+          <p>LeetCode</p>
+        </div>
+        <div class="ach-glow glow-orange"></div>
+      </div>
+      <div class="achievement-card clay-card" id="ach-hackathon">
+        <div class="ach-emoji">🏆</div>
+        <div class="ach-content">
+          <h4>Top 5% in Hackathon</h4>
+          <p>Binary Blitz (500+ participants)</p>
+        </div>
+        <div class="ach-glow glow-purple"></div>
+      </div>
+      <div class="achievement-card clay-card" id="ach-lpu-hack">
+        <div class="ach-emoji">🚀</div>
+        <div class="ach-content">
+          <h4>Hackathon Participant</h4>
+          <p>Lovely Professional University</p>
+        </div>
+        <div class="ach-glow glow-blue"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="blob blob-c1"></div>
+    <div class="blob blob-c2"></div>
+    <div class="section-header">
+      <span class="section-label clay-label">Let's Talk</span>
+      <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+      <p class="contact-subtitle">I'm open to new opportunities, collaborations, and interesting conversations. Feel free to reach out!</p>
+    </div>
+    <div class="contact-grid">
+      <a href="mailto:kumari09rama@gmail.com" class="contact-card clay-card" id="contact-email">
+        <div class="contact-icon">📧</div>
+        <h4>Email</h4>
+        <p>kumari09rama@gmail.com</p>
+      </a>
+      <a href="tel:+919241713115" class="contact-card clay-card" id="contact-phone">
+        <div class="contact-icon">📱</div>
+        <h4>Mobile</h4>
+        <p>+91-9241713115</p>
+      </a>
+      <a href="https://www.linkedin.com/in/rama-kumari12/" target="_blank" rel="noopener noreferrer" class="contact-card clay-card" id="contact-linkedin">
+        <div class="contact-icon">💼</div>
+        <h4>LinkedIn</h4>
+        <p>rama-kumari12</p>
+      </a>
+      <a href="https://github.com/Rama-kumari" target="_blank" rel="noopener noreferrer" class="contact-card clay-card" id="contact-github">
+        <div class="contact-icon">🐙</div>
+        <h4>GitHub</h4>
+        <p>Rama-kumari</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Crafted with 💜 by <strong>Rama Kumari</strong> · <span id="footer-year">2025</span></p>
+    <p class="footer-sub">Computer Science Engineer · ML Enthusiast · Problem Solver</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
