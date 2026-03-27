@@ -219,6 +219,29 @@ console.log('%c🚀 CS Engineer · ML Developer · Problem Solver', 'color: #ec4
 const footerYear = document.getElementById('footer-year');
 if (footerYear) footerYear.textContent = new Date().getFullYear();
 
+// --- RESUME LINK VALIDATION ---
+const resumeLinkPath = './assets/Rama_Kumari_Resume.html';
+const viewResumeLink = document.getElementById('home-view-resume');
+const downloadResumeLink = document.getElementById('home-download-resume');
+
+if (viewResumeLink && downloadResumeLink) {
+  fetch(resumeLinkPath, { method: 'HEAD', cache: 'no-store' })
+    .then((res) => {
+      if (!res.ok) {
+        viewResumeLink.classList.add('disabled');
+        downloadResumeLink.classList.add('disabled');
+        viewResumeLink.textContent = 'Resume not available';
+        downloadResumeLink.textContent = 'Resume not available';
+      }
+    })
+    .catch(() => {
+      viewResumeLink.classList.add('disabled');
+      downloadResumeLink.classList.add('disabled');
+      viewResumeLink.textContent = 'Resume not available';
+      downloadResumeLink.textContent = 'Resume not available';
+    });
+}
+
 // --- PROFILE IMAGE FALLBACK ---
 const profileImg = document.getElementById('profile-img');
 const avatarInner = document.getElementById('avatar-inner');
@@ -241,3 +264,7 @@ if (profileImg && avatarInner) {
   // Handle instant/cached loads where `load` may fire before listeners attach.
   syncAvatarPhotoState();
 }
+
+
+
+

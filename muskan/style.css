@@ -154,6 +154,14 @@ body {
   box-shadow: 0 8px 28px rgba(168,85,247,0.22), inset 0 1px 0 rgba(255,255,255,1);
 }
 
+.btn.disabled, .btn:disabled,
+a.btn.disabled,
+a.btn:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
 /* ===========================
    NAVBAR
    =========================== */
@@ -476,6 +484,72 @@ body {
 .section-alt {
   background: linear-gradient(180deg, rgba(240,249,255,0.5) 0%, rgba(253,244,255,0.5) 100%);
 }
+
+.resume-card {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px;
+  display: grid;
+  gap: 18px;
+  border: 1px solid rgba(124,58,237,0.18);
+  background: rgba(255,255,255,0.88);
+}
+
+.resume-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-upload-label {
+  font-weight: 700;
+  color: #5b21b6;
+  min-width: 220px;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.resume-status {
+  width: 100%;
+  text-align: center;
+  color: #4b1d6e;
+  font-weight: 600;
+}
+
+.resume-preview {
+  min-height: 300px;
+  border-radius: 18px;
+  border: 1px dashed rgba(124,58,237,0.5);
+  background: rgba(255,255,255,0.85);
+  overflow: hidden;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.resume-preview-text {
+  color: #6d28d9;
+  font-weight: 600;
+}
+
+.resume-iframe,
+.resume-inline-iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 310px;
+  border: none;
+}
+
 
 .section-header {
   text-align: center;
